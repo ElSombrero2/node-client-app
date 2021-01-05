@@ -1,0 +1,29 @@
+{
+    "viewengine": {
+        "active": true,
+        "engine": "ejs"
+    },
+    "staticpath": [
+        {
+            "path": "tools",
+            "name": "/tools"
+        },
+        {
+            "path": "public",
+            "name": "/public"
+        }
+    ],
+    "port": 3000,
+    "bodyParser": {
+        "urlencoded": true,
+        "json": true
+    },
+    "cors": true,
+    "session": {
+        "active": true,
+        "secret": "SECRET",
+        "resave": true,
+        "saveUninitialized": true,
+        "cookieSecure": false
+    }
+}
